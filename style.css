@@ -1,0 +1,681 @@
+/*
+Theme Name: Covid-19 Paper Theme
+Author: Pedro Figueroa
+Description:
+Version: 0.0.1
+Tags:
+*/
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url('assets/fonts/Ubuntu-Light.ttf');
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  line-height: 30px;
+  color: #020202;
+  position: relative;
+  margin: 0;
+}
+/*
+form {
+  margin: 0;
+  width: 100%;
+  max-width: 300px;
+  float: right;
+}
+*/
+h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+h1 a {
+  color: #333;
+  margin-left: 60px;
+}
+h1 a span {
+  font-size: 19px;
+  color: #444;
+  position: relative;
+  font-weight: 200;
+  top: -6px;
+}
+input {
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+}
+#ajaxsearchlite1 .probox form {
+    width: 100%;
+    max-width: none;
+}
+#foot {
+  font-size: 12px;
+  display: table;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  text-align:center;
+}
+#head {
+  background: #FDE74C;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: table;
+  z-index: 9999;
+}
+#head input[type="submit"] {
+    background: #020202;
+    color: white;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
+#head #ajaxsearchlite1 .prosettings {
+  display: none;
+}
+#heateor_sss_sharing_more_providers {
+    border-radius: 10px !important;
+}
+#heateor_sss_sharing_more_providers .filter,
+#heateor_sss_sharing_more_providers .footer-panel,
+#heateor_sss_sharing_more_providers .all-services ul li a {
+  display: none !important;
+}
+#heateor_sss_sharing_more_providers .all-services {
+  height: auto !important;
+}
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssfacebookShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssSkypeShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSsslinkedinShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssskypeShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssTelegramShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssemailShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssgmailShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSsstrelloShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssprintShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSsswhatsappShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssMendeleyShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssOutlook_comShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssFacebook_MessengerShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssTrelloShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssgoogle_mailShare,
+#heateor_sss_sharing_more_providers .all-services ul li .heateorSssCopyLinkShare {
+  display: block !important;
+}
+#heateor_sss_sharing_more_providers {
+    height: auto !important;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#home {
+  background: #FDE74C;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+/*
+#home form {
+  display: table;
+  float: none;
+  margin: 100px auto 0px;
+  max-width: 700px;
+}
+*/
+#home h1 {
+  font-weight: 500;
+  font-size: 100px;
+  padding-top: 150px;
+}
+#home h1 a {
+  margin: 0;
+}
+#home h1 span {
+    font-weight: 200;
+    font-size: 40px;
+    top: -5px;
+    width: 180px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: left;
+}
+#home img {
+  width: 250px;
+  height: auto;
+  margin-top: 50px;
+  opacity: 0.75;
+}
+/*
+#home input {
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 20px;
+  display: table-cell;
+  width: 75%;
+}
+*/
+#home input[type=radio] {
+    display: inline-block;
+    width: auto;
+}
+#home input[type="submit"] {
+  background: #020202;
+  color: white;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  padding: 0;
+  margin-left: 10px;
+}
+#home #ajaxsearchlite1 {
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 0;
+}
+#home #ajaxsearchlite1 .probox .proinput input,
+#home div.asl_w .probox .proinput input {
+    font-family: inherit;
+    color: inherit !important;
+    font-size: 20px !important;
+}
+#home #foot {
+  position: absolute;
+  bottom: 0;
+}
+#prensa .registro {
+    padding: 30px 30px 15px;
+}
+#recursos a {
+    display: table-cell;
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+#recursos a span {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 5px;
+    font-size: 13px;
+    line-height: 20px;
+    display: none;
+}
+#recursos a img {
+    width: 100%;
+    height: auto;
+}
+#respond {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+#respond .comment-form-comment label {
+  display: block;
+}
+#respond textarea,
+#respond input {
+    width: 100%;
+    border: 1px solid #eee;
+}
+#respond input#submit {
+    background: #FDE74C;
+    width: auto;
+    padding: 10px 20px;
+}
+#search {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#us {
+  margin: 150px 0 50px;
+}
+#wp-comment-cookies-consent {
+    display: inline-block;
+    width: auto !important;
+}
+.autores {
+  display: inline-block;
+}
+.container .base_datos img,
+.container .tipo_acceso img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+.col {
+  width: 50%;
+  display: table-cell;
+  padding: 20px 40px;
+  vertical-align: middle;
+}
+.col div#ajaxsearchlite1 {
+    max-width: 300px;
+    float: right;
+    border-radius: 15px;
+}
+.colleft {
+  display: table-cell;
+  width: 75%;
+  vertical-align: top;
+}
+.collright {
+  display: table-cell;
+  width: 25%;
+  vertical-align: top;
+}
+.comment-form-url {
+  display: none;;
+}
+.compartir {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  margin: 200px auto 0;
+  padding-bottom: 100px;
+}
+.container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+.foot .heateorSssSharing.heateorSssFacebookBackground {
+    display: none;
+}
+.heateorSssMoreBackground {
+    background-color: #666 !important;
+}
+.heateor_sss_sharing_container {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+}
+.page-numbers {
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+}
+.page-numbers li {
+    display: inline-block;
+    margin-left: 8px;
+}
+.pagi {
+    text-align: center;
+    margin: 50px 0 100px;
+}
+.pagination {
+  display: table;
+  width: 100%;
+  background: #e3e3e3;
+  position: fixed;
+  top: 70px;
+  z-index: 999;
+}
+.pagination .col {
+  padding: 5px 40px;
+}
+.pimage {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.ptitle {
+    display: inline-block;
+    width: 100%;
+    max-width: 450px;
+    margin-left: 30px;
+	vertical-align: top;
+}
+.ptitle h2 {
+	margin-top: 0;
+}
+.plusicon {
+  width: 17px;
+  position: relative;
+  top: 2.5px;
+  margin-left: 5px;
+}
+.registro {
+    border: 1px solid #ddd;
+    padding: 30px 30px 90px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.registro .foot {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: table;
+}
+.registro .foot a {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    background: #fafafa;
+}
+.registro .post-ratings {
+    display: inline-block;
+    width: auto;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+.registro .titulo {
+  font-size: 22px;
+  font-weight: bold;
+}
+.resumen {
+  line-height: 25px;
+  padding: 15px 30px;
+  margin: 15px 0;
+  border-radius: 10px;
+  font-style: italic;
+}
+.tipoderegistro {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 3px 20px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fafafa;
+    border-bottom-left-radius: 3px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.voto {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: #ddd;
+    padding: 5px 10px 0;
+    border-bottom-left-radius: 5px;
+}
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+
+/* Hamburger Menu */
+
+#menuToggle
+{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: #cdcdcd;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/*
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#menu {
+    text-align: left;
+    width: 250px;
+}
+#menuToggle {
+    top: 25px;
+    left: 40px;
+}
+#menuToggle span {
+    background: #020202;
+}
+@media only screen and (max-width: 768px) {
+
+  body {
+    padding-bottom: 100px;
+  }
+  #head {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  #head h1 {
+    display: none;
+  }
+  #head form {
+    position: relative;
+    top: -5px;
+    left: 25px;
+    margin-bottom: -10px;
+  }
+  #home {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  #home img {
+    width: 200px;
+    margin-top: 80px;
+  }
+  #home form div {
+    font-size: 17px;
+    padding: 0 30px;
+  }
+  #home h1 {
+    font-size: 50px;
+    padding-top: 70px;
+  }
+  #home h1 span {
+    font-size: 40px;
+    top: 10px;
+  }
+  #home #ajaxsearchlite1 {
+    padding: 10px;
+  }
+  #home #ajaxsearchlite1 .probox .proinput input,
+  #home div.asl_w .probox .proinput input {
+    font-size: 15px !important;
+  }
+  #home #foot {
+    margin: 0 0 15px;
+  }
+  #menuToggle {
+    top: 20px;
+    left: 20px;
+  }
+  #recursos .container div a {
+    width: 48%;
+  }
+  .col {
+    width: 100%;
+    display: block;
+    padding: 0 20px;
+    text-align: center !important;
+    box-sizing: border-box;
+  }
+  .col div#ajaxsearchlite1 {
+    max-width: 200px;
+  }
+  .container {
+    margin: 100px auto 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  .pagination {
+    bottom: 0;
+    top: auto;
+  }
+  .pagination .col {
+    padding: 5px;
+  }
+  .pagination .col:nth-child(1) {
+    display: none;
+  }
+	.registro {
+    	padding: 20px 20px 250px;
+   	}
+	.registro .foot a {
+    	width: 100%;
+    	display: block;
+    }
+	.resumen {
+		padding: 0;
+    }
+}
